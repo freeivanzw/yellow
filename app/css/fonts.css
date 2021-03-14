@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Cicle-Fina";
+  src: url("../fonts/Cicle Fina.ttf") format("TrueType");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Cicle-Fina-italic";
+  src: url("../fonts/Cicle-Fina-italic.ttf") format("TrueType");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Colab";
+  src: url("../fonts/ColabReg.otf") format("OpenType");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Colab";
+  src: url("../fonts/ColabThi.otf") format("OpenType");
+  font-weight: 100; }
+
+@font-face {
+  font-family: "Gothic";
+  src: url("../fonts/GOTHIC.TTF") format("TrueType");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica LT Ultra Compressed.ttf") format("TrueType");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Source-Sans";
+  src: url("../fonts/SourceSansPro-Bold.ttf") format("TrueType");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Source-Sans";
+  src: url("../fonts/SourceSansPro-Light.ttf") format("TrueType");
+  font-weight: 300; }
