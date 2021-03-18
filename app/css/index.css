@@ -52,9 +52,13 @@ body {
   height: 550px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #faa61a; }
+  background-color: #faa61a;
+  position: relative; }
   .media .media__title {
     font-family: "Helvetica";
     font-weight: 400;
     font-size: 124px;
     text-transform: uppercase; }
+
+.slider__dection {
+  width: 150px !important; }

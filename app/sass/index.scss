@@ -72,6 +72,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     background-color: #faa61a;
+    position: relative;
 
     .media__title {
         font-family: "Helvetica";
@@ -81,3 +82,26 @@ body {
         
     }
 }
+
+.slider__dection {
+    width: 150px !important;
+}
+
+// .slick-track {
+//     display: flex;
+// }
+
+// .slider {
+//     .slick-list {
+//         overflow: hidden;
+//     }
+
+//     .slider__dection {
+//         display: flex;
+//         justify-content: center;
+//     }
+
+//     .slider__dection {
+//         width: 150px;
+//     }
+// }
