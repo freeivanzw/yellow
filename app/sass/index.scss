@@ -209,3 +209,68 @@ body {
         }
     }
 }
+
+.info-wrap {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    min-height: 325px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+
+    .info-wrap__services{
+        width: 27.46%;
+    }
+
+    .info-wrap__text {
+        width: 40.38%;
+    }
+
+    .info-wrap__contact {
+        width: 32.15%;
+    }
+}
+
+.services {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+
+    .services__title {
+        font-family: "Source-Sans";
+        font-weight: 700;
+        text-transform: uppercase;
+
+        span {
+            color: #faa61a;
+        }
+    }
+
+    .services__list {
+        padding-left: 40px;
+
+        .services__item {
+            font-family: "Cicle-Fina";
+            font-weight: 400;
+            font-size: 18px;
+            margin-top: 9px;
+            margin-bottom: 9px;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 21px;
+                height: 17px;
+                background-color: #faa61a;
+                top: 50%;
+                left: -35px;
+                transform: translate(0, -50%);
+                background-image: url("../img/project-arrow.png");
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
